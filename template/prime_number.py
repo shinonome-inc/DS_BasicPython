@@ -1,3 +1,4 @@
-numbers = (61, 10)
+a = input("aの値を入力: ")
+b = input("bの値を入力: ")
 
 # TODO
