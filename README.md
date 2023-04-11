@@ -39,3 +39,45 @@ DataScienceコースの課題提出に使うリポジトリです。
 |pandas|takeshun|
 |matplotlib|Taichi(Ando)|
 |scikit-learn|Taichi(Ando)|
+
+
+# ※注意※コード規約について
+
+課題を提出をするときは、
+
+- コードがコード規約に従っている（PEP8）
+- python3で解いている
+- AOJのサイトに提出をしてACが出ている
+
+ということを必ず確認してから提出するようにしてください。
+
+<aside>
+💡 **コード規約**
+
+[PEP8](https://pep8-ja.readthedocs.io/ja/latest/)とは、Pythonにおけるスタイルガイドのこと。
+
+スタイルガイドとは、変数や関数名の付け方、空白に関する内容や、インデントの仕方、コメントの書き方など様々な基本的なルールを定義しているもの。
+
+実際の開発では複数人で作業することが一般的である。その際にコード規約に従うことでコードに一貫性が生まれ、可読性・保守性が高まり品質の向上につながる。
+
+</aside>
+このサイトで自分のコードがコード規約に従っているかチェックすることができます。(https://www.pythonchecker.com/)
+
+### vscodeのsettings.jsonを編集してコード規約を自動的に守る方法
+
+下のsettings.jsonファイルをダウンロードして.vscode直下に置いてください。(GitHubからリポジトリをクローンすれば、自動的にvscode直下に置かれます。)自動で保存時にコード規約に従ったコードへと変換されます。詳しくは[こちら](https://maku.blog/p/tfq2cnw/)。
+
+black, flake8をインストールしていないとvscodeで警告が出るので自身の環境にあわせて(conda or pip)インストールしてください。↓
+<img width="450" alt="スクリーンショット 2022-04-04 0 24 03" src="https://user-images.githubusercontent.com/70427875/161435394-b5018694-aee2-4a89-813d-9cfa4e9b7c15.png">
+
+
+わからないことがあればslackで@eriにお願いします。
+
+↓GitHubからクローンしてもvscode直下に置かれなかった方用<br>
+[settings.json.zip](https://github.com/shinonome-inc/Basic-Python/files/8357521/settings.json.zip)
+
+
+<img width="287" alt="スクリーンショット 2022-03-20 19 31 34" src="https://user-images.githubusercontent.com/83397726/160279459-afeb9b5e-cfb1-4aa3-b26d-1e1433ae816e.png">
+
+
+（フォーマッターを使わない方は[こちら](https://atmarkit.itmedia.co.jp/ait/articles/1912/10/news045.html)を参考にしてください。）
