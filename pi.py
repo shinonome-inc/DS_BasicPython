@@ -4,4 +4,5 @@ text = """
 """
 
 # TODO
+print(text)
 
