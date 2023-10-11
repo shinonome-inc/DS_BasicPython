@@ -36,10 +36,9 @@ DataScienceコースの課題提出に使うリポジトリです。
 |制御構文|kobakoba|
 |関数|Ryuichi|
 |numpy|tomoya|
-|pandas|takeshun|
+|pandas|Ryoji|
 |matplotlib|Taichi(Ando)|
 |scikit-learn|Taichi(Ando)|
-
 
 # ※注意※コード規約について
 
