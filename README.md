@@ -37,8 +37,8 @@ DataScienceコースの課題提出に使うリポジトリです。
 |関数|Ryuichi|
 |numpy|tomoya|
 |pandas|Ryoji|
-|matplotlib|Taichi(Ando)|
-|scikit-learn|Taichi(Ando)|
+|matplotlib|Ryoma|
+|scikit-learn|shima|
 
 # ※注意※コード規約について
 
@@ -46,7 +46,7 @@ DataScienceコースの課題提出に使うリポジトリです。
 
 - コードがコード規約に従っている（PEP8）
 - python3で解いている
-- AOJのサイトに提出をしてACが出ている
+- 実際に実行し、想定通りの出力が出ている
 
 ということを必ず確認してから提出するようにしてください。
 
