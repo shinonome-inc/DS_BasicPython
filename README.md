@@ -32,13 +32,13 @@ DataScienceコースの課題提出に使うリポジトリです。
 ## 各課題のレビュワー
 |課題|レビュワー|
 |:-:|:-:|
-|Python入門|yuto|
+|Python入門|kobakoba|
 |制御構文|kobakoba|
-|関数|Ryuichi|
+|関数|ryo|
 |numpy|tomoya|
-|pandas|Ryoji|
+|pandas|tomoya|
 |matplotlib|Ryoma|
-|scikit-learn|shima|
+|scikit-learn|Ryoma|
 
 # ※注意※コード規約について
 
