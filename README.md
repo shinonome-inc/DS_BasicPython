@@ -36,7 +36,7 @@ DataScienceコースの課題提出に使うリポジトリです。
 |制御構文|kobakoba|
 |関数|ryo|
 |numpy|tomoya|
-|pandas|tomoya|
+|pandas|takumi|
 |matplotlib|Ryoma|
 |scikit-learn|Ryoma|
 
