@@ -29,16 +29,10 @@ DataScienceコースの課題提出に使うリポジトリです。
   3.2 実装したブランチから`main`へのプルリクエストを作成する  
   3.3 プルリクエストのリンクをレビュワーに送信する  
 
-## 各課題のレビュワー
-|課題|レビュワー|
-|:-:|:-:|
-|Python入門|kobakoba|
-|制御構文|kobakoba|
-|関数|ryo|
-|numpy|tomoya|
-|pandas|takumi|
-|matplotlib|Ryoma|
-|scikit-learn|Ryoma|
+### 各課題のレビュワー
+Discordの `#da-basicpython-課題提出` チャンネルにピン止めされています。
+レビュワーが変更されることもあるので随時確認してください。
+
 
 # ※注意※コード規約について
 
@@ -70,7 +64,7 @@ black, flake8をインストールしていないとvscodeで警告が出るの�
 <img width="450" alt="スクリーンショット 2022-04-04 0 24 03" src="https://user-images.githubusercontent.com/70427875/161435394-b5018694-aee2-4a89-813d-9cfa4e9b7c15.png">
 
 
-わからないことがあればslackで@eriにお願いします。
+わからないことがあればdiscordの `#da-質問場所` にお願いします。
 
 ↓GitHubからクローンしてもvscode直下に置かれなかった方用<br>
 [settings.json.zip](https://github.com/shinonome-inc/Basic-Python/files/8357521/settings.json.zip)
