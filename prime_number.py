@@ -2,6 +2,12 @@ a = input("aの値を入力: ")
 b = input("bの値を入力: ")
 
 # TODO
+def check_natural(n):
+    if not n.isdigit() or int(n)<0:
+        raise ValueError('{}は自然数ではありません'.format(n))
+check_natural(a)
+check_natural(b)
+
 def is_prime(n):
     if int(n) < 2:
         return False

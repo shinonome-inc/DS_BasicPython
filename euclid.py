@@ -2,12 +2,20 @@ a = input("a の値を入力: ")
 b = input("b の値を入力: ")
 
 # TODO
-def euclid(x,y):
-    while y != 0:
-        x,y = y, int(x) % int(y)
-    return(x)
+def gcd(a,b):
+    while b != 0:
+        a,b = b, int(a) % int(b)
+    return a 
+result3 = gcd(a,b)
+print(result3)
 
-result = euclid(a,b)
-print('最大公約数：{}'.format(result))
+def coprime(a,b):
+    while b != 0:
+        a,b = b, int(a) % int(b)
+    return a == 1
 
-    
+result4 = coprime(a,b)
+if result4:
+    print(f"{a}と{b}は互いに素")
+else:
+    print(f"{a}と{b}は互いに素ではない")
