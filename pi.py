@@ -4,4 +4,13 @@ text = """
 """
 
 # TODO
+#list(map(len,["a","bc","def"]))
+cleantext = text.replace(",","")
+cleantext = cleantext.replace(".","")
+words = cleantext.split()
+wordscountlist=list(map(len,list(words)))
+result=''.join(map(str,wordscountlist))
+print(result)
+
+
 
